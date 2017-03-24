@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+
+.dad
+{
+	overflow: hidden;
+}
+
+.dad::after
+{
+/*	content:'';
+	display: block;
+	clear: both;*/
+}
+
+.first
+{
+	width: 300px;
+	height: 300px;
+	background-color: #ad5e5e;
+	float: left;
+}
+
+.second
+{
+	width: 300px;
+	height: 300px;
+	background-color: #b6f234;
+	float: right;
+}
+
+.mom
+{
+	/*overflow: hidden;*/
+}
+
+.mom::after
+{
+/*	content:'';
+	display: block;
+	clear: both;*/
+}
+
+.third
+{
+	width: 300px;
+	height: 300px;
+	background-color: #a1a1ff;
+	float: right;
+}

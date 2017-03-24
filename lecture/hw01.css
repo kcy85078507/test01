@@ -1,0 +1,39 @@
+body
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.container
+{
+	width: 960px;
+	background-color: skyblue;
+
+}
+
+.nav
+{
+	height: 70px;
+	background-color: #123456;
+}
+
+.header
+{
+	height: 600px;
+	background-color: #248324;
+}
+
+.section
+{
+	height:  600px;
+	background-color: #782183;
+}
+
+.footer
+{
+	height: 70px;
+	background-color: #315783;
+}
